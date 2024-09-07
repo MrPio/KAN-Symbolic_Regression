@@ -175,6 +175,16 @@ class KANLinear(torch.nn.Module):
         output = output.view(*original_shape[:-1], self.out_features)
         return output
 
+    def forward_insight(self, x: torch.Tensor):
+        assert x.size(-1) == self.in_features
+        x = x.view(-1, self.in_features)
+        base_output = F.linear(self.base_activation(x).double(), self.base_weight)
+        spline_output = F.linear(
+            self.b_splines(x).view(x.size(0), -1),
+            self.scaled_spline_weight.view(self.out_features, -1),
+        )
+        return spline_output, base_output
+
     @torch.no_grad()
     def update_grid(self, x: torch.Tensor, margin=0.01):
         assert x.dim() == 2 and x.size(1) == self.in_features
@@ -294,8 +304,18 @@ class KAN(torch.nn.Module):
             x = layer(x)
         return x
 
+    def forward_insight(self, x: torch.Tensor):
+        for layer in self.layers:
+            x = layer.forward_insight(x)
+        return x
+
     def regularization_loss(self, regularize_activation=1.0, regularize_entropy=1.0):
         return sum(
             layer.regularization_loss(regularize_activation, regularize_entropy)
             for layer in self.layers
         )
+
+    def plot(self, l, i, j):
+        layer = self.layers[l]
+        af = layer.spline_weight[i, j]
+        return af

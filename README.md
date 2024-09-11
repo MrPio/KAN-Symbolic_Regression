@@ -18,7 +18,11 @@ The goal is to make KAN retrieve the symbolic formula of the harmonic motion des
 
 The same symbolic regression task is solved using *Genetic Programming*, *Bayesian Method* and *KANs*. _(in progress)_.
 
-<img src="img/gplearn_quadratic.png" alt="" width="600rem">
+<p align="center">
+<img src="img/gplearn_quadratic.png" alt="" width="500rem">
+<img src="img/kan_quadratic.png" alt="" width="500rem">
+<img src="img/bayesian_quadratic.png" alt="" width="500rem">
+</p>
 
 ### [Special function](Special_function.ipynb)
 
@@ -33,6 +37,7 @@ of the architecture.
 For reasons of interpretability, we train a rather small network, foregoing high accuracy.
 
 Ground truth:
+
 <img src="img/sine_integral.png" alt="" width="600rem">
 
 What the KAN learned:
@@ -67,6 +72,8 @@ for interpretation purposes.
 
 The goal of this experiment is to use KAN's regression capability to approximate the popular multivariate Newton's Law
 of Gravity to a sum of univariate functions in order to reduce the size of the lookup table.
+
+$$F(m_1,m_2,d)=G\cdot \frac{m1\cdot m2}{d^2}$$
 
 <p align="center">
   <img src="img/effkan_newton.png" alt="Image 2" width="500rem">

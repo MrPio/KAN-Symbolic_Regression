@@ -314,8 +314,3 @@ class KAN(torch.nn.Module):
             layer.regularization_loss(regularize_activation, regularize_entropy)
             for layer in self.layers
         )
-
-    def plot(self, l, i, j):
-        layer = self.layers[l]
-        af = layer.spline_weight[i, j]
-        return af

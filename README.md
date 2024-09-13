@@ -11,8 +11,12 @@ I recorded my smartphone's gyroscope and accelerometer sensors while it was sway
 
 The goal is to make KAN retrieve the symbolic formula of the harmonic motion despite the sensor noise.
 
-<img src="img/gyroscope.png" alt="" width="600rem">
-<img src="img/accelerometer.png" alt="" width="600rem">
+<p align="center">
+  <img src="img/gyroscope.png" alt="" width="600rem">
+</p>
+<p align="center">
+  <img src="img/accelerometer.png" alt="" width="600rem">
+</p>
 
 ### [Comparison of different methods for Symbolic Regression](Comparison_of_different_methods_for_SR.ipynb)
 
@@ -38,14 +42,16 @@ For reasons of interpretability, we train a rather small network, foregoing high
 
 Ground truth:
 
+<p align="center">
 <img src="img/sine_integral.png" alt="" width="600rem">
+</p>
 
 What the KAN learned:
 
 $$2.5cos(1.5sin(0.17sin(-1.8x-6.2) \cdot (-1.8x-6.2)+3.9)-0.3)-1.4$$
 
 <p align="center">
-<img src="img/kan_sine_integral.png" alt="" width="300rem">
+  <img src="img/kan_sine_integral.png" alt="" width="300rem">
 </p>
 
 ### [Unsupervised learning](Unsupervised_Learning.ipynb)

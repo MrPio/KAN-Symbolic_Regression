@@ -46,9 +46,9 @@ Ground truth:
 <img src="img/sine_integral.png" alt="" width="600rem">
 </p>
 
-What the KAN learned:
+What the KAN has learned:
 
-$$2.5cos(1.5sin(0.17sin(-1.8x-6.2) \cdot (-1.8x-6.2)+3.9)-0.3)-1.4$$
+$$2.5cos(1.5sin(0.17sin(-1.8x-6.2)+3.9)-0.3)-1.4$$
 
 <p align="center">
   <img src="img/kan_sine_integral.png" alt="" width="300rem">

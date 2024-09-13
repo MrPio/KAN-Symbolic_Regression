@@ -19,9 +19,9 @@ The goal is to make KAN retrieve the symbolic formula of the harmonic motion des
 The same symbolic regression task is solved using *Genetic Programming*, *Bayesian Method* and *KANs*. _(in progress)_.
 
 <p align="center">
-<img src="img/gplearn_quadratic.png" alt="" width="500rem">
-<img src="img/kan_quadratic.png" alt="" width="500rem">
-<img src="img/bayesian_quadratic.png" alt="" width="500rem">
+<img src="img/gplearn_quadratic.png" alt="" width="300rem">
+<img src="img/kan_quadratic.png" alt="" width="300rem">
+<img src="img/bayesian_quadratic.png" alt="" width="300rem">
 </p>
 
 ### [Special function](Special_function.ipynb)

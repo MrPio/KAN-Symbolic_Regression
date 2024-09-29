@@ -18,7 +18,7 @@ The goal is to make KAN retrieve the symbolic formula of the harmonic motion des
   <img src="img/accelerometer.png" alt="" width="600rem">
 </p>
 
-### [Comparison of different methods for Symbolic Regression](Comparison_of_different_methods_for_SR.ipynb)
+### [Comparison of different methods for Symbolic Regression](Comparison_of_different_methods_for_SR_univariate.ipynb)
 
 The same symbolic regression task is solved using *Genetic Programming*, *Bayesian Method* and *KANs*. _(in progress)_.
 

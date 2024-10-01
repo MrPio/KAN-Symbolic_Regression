@@ -5,6 +5,22 @@ network to solve symbolic regression tasks.
 
 ## 📦 What does the repository offer?
 
+### [Comparison of different methods for Symbolic Regression in an univariate task](Comparison_of_different_methods_for_SR_univariate.ipynb)
+
+The same univariate symbolic regression task is solved using *KANs*, *Genetic Programming*, *Bayesian Method* and *QLattice*.
+
+<p align="center">
+<img src="img/comparison_univariate.png" alt="" width="900rem">
+</p>
+
+### [Comparison of different methods for Symbolic Regression in a multivariate task](Comparison_of_different_methods_for_SR_multivariate.ipynb)
+
+The same multivariate symbolic regression task is solved using *KANs*, *Genetic Programming*, *Bayesian Method* and *QLattice*.
+
+<p align="center">
+<img src="img/comparison_multivariate.png" alt="" width="1200rem">
+</p>
+
 ### [Pendulum motion experiment](Pendulum_Motion.ipynb)
 
 I recorded my smartphone's gyroscope and accelerometer sensors while it was swaying with a 50cm twine.
@@ -18,15 +34,6 @@ The goal is to make KAN retrieve the symbolic formula of the harmonic motion des
   <img src="img/accelerometer.png" alt="" width="600rem">
 </p>
 
-### [Comparison of different methods for Symbolic Regression](Comparison_of_different_methods_for_SR_univariate.ipynb)
-
-The same symbolic regression task is solved using *Genetic Programming*, *Bayesian Method* and *KANs*. _(in progress)_.
-
-<p align="center">
-<img src="img/gplearn_quadratic.png" alt="" width="300rem">
-<img src="img/kan_quadratic.png" alt="" width="300rem">
-<img src="img/bayesian_quadratic.png" alt="" width="300rem">
-</p>
 
 ### [Special function](Special_function.ipynb)
 

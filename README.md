@@ -3,6 +3,21 @@
 This repository contains the results of the tests carried out to prove the ability of the Kolmogorov-Arnold neural
 network to solve symbolic regression tasks.
 
+KANs were presented by Liu and colleagues in their work [KAN: Kolmogorov-Arnold Networks](https://arxiv.org/abs/2404.19756).
+
+
+
+## 📘 The thesis:
+
+### ▶️ [Approaching symbolic regression with Kolmogorov-Arnold networks [PDF]](https://github.com/user-attachments/files/17270442/Kolmogorov_Arnold_Networks_Symbolic_Regression.pdf)
+
+
+## 📙 The slideshow presented on the day of the exam:
+
+### ▶️ [Symbolic Regression with KANs [PDF]](https://github.com/user-attachments/files/17270435/Symbolic.Regression.with.KANs.pdf)
+
+### ▶️ [Symbolic Regression with KANs [PPTX]](https://github.com/user-attachments/files/17270436/Symbolic.Regression.with.KANs.pptx)
+
 ## 📦 What does the repository offer?
 
 ### [Comparison of different methods for Symbolic Regression in an univariate task](Comparison_of_different_methods_for_SR_univariate.ipynb)

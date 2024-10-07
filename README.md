@@ -8,7 +8,7 @@ KANs were presented by Liu and colleagues in their work [KAN: Kolmogorov-Arnold 
 
 ## 📘 The thesis:
 
-### ▶️ [Approaching symbolic regression with Kolmogorov-Arnold networks [PDF]](https://github.com/user-attachments/files/17282083/Approaching.symbolic.regression.with.Kolmogorov-Arnold.networks.pdf)
+### ▶️ [Approaching symbolic regression with Kolmogorov-Arnold networks [PDF]](https://github.com/user-attachments/files/17282114/Approaching.symbolic.regression.with.Kolmogorov-Arnold.networks.pdf)
 
 
 ## 📙 The slideshow presented on the day of the exam:

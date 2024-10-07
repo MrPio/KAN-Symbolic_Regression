@@ -6,10 +6,9 @@ network to solve symbolic regression tasks.
 KANs were presented by Liu and colleagues in their work [KAN: Kolmogorov-Arnold Networks](https://arxiv.org/abs/2404.19756).
 
 
-
 ## 📘 The thesis:
 
-### ▶️ [Approaching symbolic regression with Kolmogorov-Arnold networks [PDF]](https://github.com/user-attachments/files/17281971/Approaching.symbolic.regression.with.Kolmogorov-Arnold.networks.pdf)
+### ▶️ [Approaching symbolic regression with Kolmogorov-Arnold networks [PDF]](https://github.com/user-attachments/files/17282083/Approaching.symbolic.regression.with.Kolmogorov-Arnold.networks.pdf)
 
 
 ## 📙 The slideshow presented on the day of the exam:

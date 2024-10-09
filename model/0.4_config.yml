@@ -16,15 +16,29 @@ sp_trainable: true
 state_id: 4
 symbolic.funs_name.0:
 - - '0'
+- - '0'
+- - '0'
+- - '0'
+- - '0'
+symbolic.funs_name.1:
+- - '0'
+  - '0'
+  - '0'
+  - '0'
   - '0'
 - - '0'
   - '0'
-symbolic.funs_name.1:
+  - '0'
+  - '0'
+  - '0'
+symbolic.funs_name.2:
 - - '0'
   - '0'
 symbolic_enabled: false
 width:
-- - 2
+- - 1
+  - 0
+- - 5
   - 0
 - - 2
   - 0
